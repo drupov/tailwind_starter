@@ -3,3 +3,7 @@ base:
   css:
     theme:
       src/output.css: {}
+  js:
+    js/index.js: {}
+  dependencies:
+    - core/drupal
