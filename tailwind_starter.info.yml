@@ -19,4 +19,3 @@ libraries-extend:
   core/drupal.progress:
     - tailwind_starter/progress
 core_version_requirement: ^10 || ^11
-generator: 'starterkit_theme:11.0.7'
