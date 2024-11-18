@@ -5,17 +5,4 @@ description: Tailwind starter theme for Drupal.
 version: 1.0.0
 libraries:
   - tailwind_starter/base
-  - tailwind_starter/messages
-  - core/normalize
-libraries-extend:
-  user/drupal.user:
-    - tailwind_starter/user
-  core/drupal.dropbutton:
-    - tailwind_starter/dropbutton
-  core/drupal.dialog:
-    - tailwind_starter/dialog
-  file/drupal.file:
-    - tailwind_starter/file
-  core/drupal.progress:
-    - tailwind_starter/progress
 core_version_requirement: ^10 || ^11
