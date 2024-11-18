@@ -4,4 +4,5 @@
 nvm use
 npx tailwindcss
 npm install
+npm run dev
 ```
