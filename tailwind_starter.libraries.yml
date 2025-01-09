@@ -2,7 +2,7 @@ base:
   version: VERSION
   css:
     theme:
-      src/output.css: {}
+      css/output.css: {}
   js:
     js/index.js: {}
   dependencies:
