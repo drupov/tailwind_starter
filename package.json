@@ -1,6 +1,6 @@
 {
   "name": "tailwind_starter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Tailwind starter theme for Drupal",
   "main": "index.js",
   "scripts": {
