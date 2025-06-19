@@ -19,3 +19,11 @@ function tailwind_starter_preprocess_image_widget(array &$variables) {
     unset($data['preview']);
   }
 }
+
+/**
+ * Implements hook_css_alter().
+ */
+function tailwind_starter_css_alter(&$css) {
+  // Remove hidden.module.css, we're importing a modified version of it.
+  unset($css['core/modules/system/css/components/hidden.module.css']);
+}
